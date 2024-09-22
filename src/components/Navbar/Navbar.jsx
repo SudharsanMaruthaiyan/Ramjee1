@@ -3,12 +3,32 @@ import { navlogo } from "../../assets/image";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 // import Animatedcursor from "../Animatedcursor/Animatedcursor";
+import AnimatedCursor from "react-animated-cursor";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <>
       <div className="3xl:container mx-auto bg-white shadow-md z-50 fixed top-0 w-full">
         {/* <Animatedcursor/> */}
+          <AnimatedCursor  innerSize={10}
+              outerSize={10}
+              color='193, 11, 111'
+              outerAlpha={0.2}
+              innerScale={0.7}
+              outerScale={5}
+              clickables={[
+                  'a',
+                  'input[type="text"]',
+                  'input[type="email"]',
+                  'input[type="number"]',
+                  'input[type="submit"]',
+                  'input[type="image"]',
+                  'label[for]',
+                  'select',
+                  'textarea',
+                  'button',
+                  '.link'
+          ]}/>
         <div className=" w-[90%] grid grid-cols-2 lg:grid-cols-3 mx-auto my-5 items-center justify-between sticky top-0">
           <div className="">
             <img src={navlogo} alt="logo" width={100} />

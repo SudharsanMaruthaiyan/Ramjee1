@@ -2,14 +2,12 @@ import { Menu } from "lucide-react";
 import { navlogo } from "../../assets/image";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-// import Animatedcursor from "../Animatedcursor/Animatedcursor";
 import AnimatedCursor from "react-animated-cursor";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <>
       <div className="3xl:container mx-auto bg-white shadow-md z-50 fixed top-0 w-full">
-        {/* <Animatedcursor/> */}
           <AnimatedCursor  innerSize={10}
               outerSize={10}
               color='193, 11, 111'
@@ -50,9 +48,9 @@ const Navbar = () => {
                     <li className="text-[16px] font-bold font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <Link to={"/contact"}>Contact</Link>
                     </li>
-                    <li className="text-[16px] font-bold font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
+                    {/* <li className="text-[16px] font-bold font-[Poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <Link to={"/Blog"}>Blog</Link>
-                    </li>
+                    </li> */}
                     <li className="text-[16px] font-bold font-[Poppins] p-2 text-center lg:p-0  px-3 py-2 rounded-lg flex items-center  text-white justify-center">
                       <button className="bg-blue-500 px-8 py-2 hover:bg-white border border-[#1176F0] hover:text-[#1176F0] rounded-full font-[Poppins] font-bold text-white ">Log in </button>
                     </li>

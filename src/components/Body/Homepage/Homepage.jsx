@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import Counter from "../Counter/Counter";
 import EchoolingCourses from "../EchoolingCourses/EchoolingCourses";
 import UpcomingEvent from "../UpcomingEvent/UpcomingEvent";
-import Animatedcursor from "../../Animatedcursor/Animatedcursor";
+// import Animatedcursor from "../../Animatedcursor/Animatedcursor";
 
 
 const Homepage = () => {
@@ -22,7 +22,7 @@ const Homepage = () => {
     <>
         <div className=" max-w-[100%] mx-auto"> 
             <div className=" w-[90%] lg:w-[90%] mx-auto my-10 lg:mt-28 lg:mb-32">
-                <Animatedcursor/>
+                {/* <Animatedcursor/> */}
                 <div className=" grid grid-cols-1 md:grid-cols-4 w-full items-center my-40">
                     <div className=" col-span-4 xl:col-span-3  order-2 md:order-1 lg:pt-0">
                         <div className="flex items-center gap-2 border-2 w-fit p-1 rounded-full pr-5 group">

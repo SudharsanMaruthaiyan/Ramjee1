@@ -6,7 +6,8 @@ import Slider from "react-slick";
 import Counter from "../Counter/Counter";
 import EchoolingCourses from "../EchoolingCourses/EchoolingCourses";
 import UpcomingEvent from "../UpcomingEvent/UpcomingEvent";
-import Animatedcursor from "../../AnimatedCursor/AnimatedCursor";
+import Animatedcursor from "../../Animatedcursor/Animatedcursor";
+
 
 const Homepage = () => {
     var settings = {

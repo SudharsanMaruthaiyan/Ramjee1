@@ -2,7 +2,7 @@ import { Menu } from "lucide-react";
 import { navlogo } from "../../assets/image";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Animatedcursor from "../AnimatedCursor/AnimatedCursor";
+import Animatedcursor from "../Animatedcursor/Animatedcursor";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (

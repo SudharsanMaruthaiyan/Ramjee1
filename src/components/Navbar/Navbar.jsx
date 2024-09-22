@@ -2,13 +2,13 @@ import { Menu } from "lucide-react";
 import { navlogo } from "../../assets/image";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Animatedcursor from "../AnimatedCursor/AnimatedCursor";
+// import Animatedcursor from "../AnimatedCursor/AnimatedCursor";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <>
       <div className="3xl:container mx-auto bg-white shadow-md z-50 fixed top-0 w-full">
-        <Animatedcursor/>
+        {/* <Animatedcursor/> */}
         <div className=" w-[90%] grid grid-cols-2 lg:grid-cols-3 mx-auto my-5 items-center justify-between sticky top-0">
           <div className="">
             <img src={navlogo} alt="logo" width={100} />
